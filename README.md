@@ -1,6 +1,8 @@
 # JanamSaathi AI  
 ![JanamSaathi Logo](assets/logo.png)  
 
+<img src="assets/logo.png" alt="JanamSaathi Logo" width="150"/>
+
 **Finding your life partner using AI — in weeks, not months**  
 
 ---
@@ -45,11 +47,11 @@ For access requests or collaboration:
 **bharath.workmail@gmail.com**  
 
 ---
-If you’d like a **technical walkthrough**, **architecture explanation**, or **product integration discussion**, feel free to contact me via **LinkedIn** or **email**.  
+If you’d like a **technical walkthrough** or **architecture explanation**, feel free to contact me via **LinkedIn** or **email**.  
 
 ---
-**Watch Full Demo → [YouTube Video](https://www.youtube.com/watch/YOUR_VIDEO_ID_HERE)**  
+**Watch Full Demo → [YouTube Video](https://www.youtube.com/watch?v=naVaP0DdNx4)**  
 
 ---
 
-#AI #Matrimony #GenerativeAI #LLM #Python #India  
+#AI #ArtificialIntelligence #Python #Flask #MachineLearning #GenerativeAI #LLM #AIApplications #AIInnovation #AITools #AIDevelopment #HuggingFace #OpenSourceAI #Startup #TechForGood #MatrimonyApp #AppDevelopment #ProductDesign #Innovation
