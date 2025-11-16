@@ -15,7 +15,7 @@
 
 ## JanamSaathi AI – The AI Matrimony Revolution  
 
-We reduce the entire process from **6+ months → just weeks** using **deep AI conversation analysis**.  
+We reduce the entire process from **6+ months → just weeks** using **AI analysis**.  
 
 ---
 
