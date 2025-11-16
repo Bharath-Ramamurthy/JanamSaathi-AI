@@ -31,7 +31,7 @@ We reduce the entire process from **6+ months → just weeks** using **deep AI c
 
 ---
 
-## Core AI Features  
+## Core Features  
 
 - Integrated AI-driven conversation analysis based on a well-established research framework to evaluate compatibility.  
 - Implemented robust security practices for authentication and authorization between client and backend systems.  
