@@ -22,9 +22,6 @@ We reduce the entire process from **6+ months → just weeks** using deep AI con
 | Lightning-fast Performance       | Flask + In-memory structures     | Handles 1000s of real-time chats smoothly   |
 | Scalable Architecture            | Redis + Optimized schema         | Minimal disk I/O, maximum speed             |
 
-### Why Code is Private (for now)
-Commercial product launching Q4 2025.  
-Full code will be shared privately with recruiters post-launch.
 
 ### Resources
 - 📖 [App Brochure](BROCHURE.pdf)
