@@ -3,9 +3,6 @@
 
 **Finding your life partner using AI — in weeks, not months**  
 
-![App Demo Thumbnail](assets/demo-thumbnail.jpg)  
-**Watch Full Demo → [YouTube Video](https://www.youtube.com/watch/YOUR_VIDEO_ID_HERE)**  
-
 ---
 
 ### The Real Problem in Indian Arranged Marriages  
@@ -25,25 +22,21 @@ We reduce the entire process from **6+ months → just weeks** using **deep AI c
 
 | Screen | Description |  
 |--------|-------------|  
-| ![Splash Screen](assets/screen_shots/1.png) | **App Splash Screen** – Clean, branded welcome |  
-| ![Sign Up Screen](assets/screen_shots/2.png) | **Sign Up Screen** – Quick profile setup |  
+| ![Splash Screen](assets/screen_shots/1.png) | **App Splash Screen**|  
+| ![Sign Up Screen](assets/screen_shots/2.png) | **Sign Up Screen** – AI-Based Preference Selection |  
 | ![Feed Screen](assets/screen_shots/3.png) | **Feed Screen** – AI-matched profiles |  
-| ![Chat Screen](assets/screen_shots/4.png) | **Chat Screen** – Real-time guided chats |  
-| ![Analysis Screen](assets/screen_shots/5.png) | **Performing Analysis** – Live AI evaluation |  
+| ![Chat Screen](assets/screen_shots/4.png) | **Chat Screen** – Real-time user conversations with AI-powered compatibility analysis |  
+| ![Analysis Screen](assets/screen_shots/5.png) | **Performing Analysis** – AI driven compatability evaluation |  
 | ![Compatibility Report](assets/screen_shots/6.png) | **Compatibility Report** – Final match insights |  
 
 ---
 
 ## Core AI Features  
 
-| Feature | Tech Used | Impact |  
-|----------------------------------|----------------------------------|---------------------------------------------|  
-| **Deep Compatibility Scoring** | LLMs + Research-backed Framework | Understands values, emotions & life goals |  
-| **Real-time Conversation Analysis** | Generative AI + Custom Prompts | Analyzes chat depth beyond keywords |  
-| **Secure & Private Matching** | End-to-end encryption + JWT | Your data stays **100% protected** |  
-| **Lightning-fast Performance** | In-memory structures | Handles 1000s of real-time chats smoothly |  
-| **Scalable Architecture** | Redis + Optimized schema | Minimal disk I/O, maximum speed |  
-
+- Integrated AI-driven conversation analysis based on a well-established research framework to evaluate compatibility.  
+- Implemented robust security practices for authentication and authorization between client and backend systems.  
+- Optimized for high performance and scalability, ensuring smooth, real-time user experiences.  
+- Utilized in-memory data structures to minimize frequent disk writes and improve overall system performance.
 ---
 
 ## Source Code  
@@ -53,6 +46,9 @@ For access requests or collaboration:
 
 ---
 If you’d like a **technical walkthrough**, **architecture explanation**, or **product integration discussion**, feel free to contact me via **LinkedIn** or **email**.  
+
+---
+**Watch Full Demo → [YouTube Video](https://www.youtube.com/watch/YOUR_VIDEO_ID_HERE)**  
 
 ---
 
