@@ -22,12 +22,12 @@ We reduce the entire process from **6+ months → just weeks** using **deep AI c
 
 | Screen | Description |  
 |--------|-------------|  
-| ![Splash Screen](assets/screen_shots/1.png) | **App Splash Screen**|  
-| ![Sign Up Screen](assets/screen_shots/2.png) | **Sign Up Screen** – AI-Based Preference Selection |  
-| ![Feed Screen](assets/screen_shots/3.png) | **Feed Screen** – AI-matched profiles |  
-| ![Chat Screen](assets/screen_shots/4.png) | **Chat Screen** – Real-time user conversations with AI-powered compatibility analysis |  
-| ![Analysis Screen](assets/screen_shots/5.png) | **Performing Analysis** – AI driven compatability evaluation |  
-| ![Compatibility Report](assets/screen_shots/6.png) | **Compatibility Report** – Final match insights |  
+| ![Splash Screen](/assets/screen_shots/0_splash_screen.png) | **App Splash Screen**|  
+| ![Sign Up Screen](/assets/screen_shots/1_sign_up_screen.png) | **Sign Up Screen** – AI-Based Preference Selection |  
+| ![Feed Screen](/assets/screen_shots/2_feed_screen.png) | **Feed Screen** – AI-matched profiles |  
+| ![Chat Screen](/assets/screen_shots/3_chat_window.png) | **Chat Screen** – Real-time user conversations with AI-powered compatibility analysis |  
+| ![Analysis Screen](/assets/screen_shots/4_performing_analysis.png) | **Performing Analysis** – AI driven compatability evaluation |  
+| ![Compatibility Report](/assets/screen_shots/5_compatability_report.png) | **Compatibility Report** – Final match insights |  
 
 ---
 
