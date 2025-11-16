@@ -41,7 +41,7 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 ---
 
 ## Source Code  
-The full source code is maintained in a **private repository** as it is part of our commercial product.  
+The source code remains private while the product is being commercialized.  
 For access requests or collaboration:  
 **bharath.workmail@gmail.com**  
 
