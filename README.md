@@ -38,15 +38,7 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 - Implemented robust security practices for authentication and authorization between client and backend systems.  
 - Optimized for high performance and scalability, ensuring smooth, real-time user experiences.  
 - Utilized in-memory data structures to minimize frequent disk writes and improve overall system performance.
----
 
-## Source Code  
-The source code remains private while the product is being commercialized.  
-For access requests or collaboration:  
-**bharath.workmail@gmail.com**  
-
----
-If you’d like a **technical walkthrough** or **architecture explanation**, feel free to contact me via **LinkedIn** or **email**.  
 
 ---
 **Watch Full Demo → [YouTube Video](https://www.youtube.com/watch?v=naVaP0DdNx4)**  
