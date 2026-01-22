@@ -242,8 +242,8 @@ sequenceDiagram
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/matrimai.git
-cd matrimai
+git clone https://github.com/yourusername/janamsaathiai.git
+cd janamsaathiai
 ```
 
 ---
@@ -290,17 +290,17 @@ brew services start postgresql@14
 sudo -u postgres psql
 
 # Create database and user
-CREATE DATABASE matrimai_db;
-CREATE USER matrimai_user WITH PASSWORD 'your_secure_password';
-GRANT ALL PRIVILEGES ON DATABASE matrimai_db TO matrimai_user;
+CREATE DATABASE janamsaathiai_db;
+CREATE USER janamsaathiai_user WITH PASSWORD 'your_secure_password';
+GRANT ALL PRIVILEGES ON DATABASE janamsaathiai_db TO janamsaathiai_user;
 \q
 ```
 
 **Option B: Docker**
 ```bash
-docker run --name matrimai-postgres \
-  -e POSTGRES_DB=matrimai_db \
-  -e POSTGRES_USER=matrimai_user \
+docker run --name janamsaathiai-postgres \
+  -e POSTGRES_DB=janamsaathiai_db \
+  -e POSTGRES_USER=janamsaathiai_user \
   -e POSTGRES_PASSWORD=your_secure_password \
   -p 5432:5432 \
   -d postgres:14
@@ -323,7 +323,7 @@ brew services start redis
 
 **Option B: Docker**
 ```bash
-docker run --name matrimai-redis \
+docker run --name janamsaathiai-redis \
   -p 6379:6379 \
   -d redis:7-alpine
 ```
@@ -342,7 +342,7 @@ nano .env
 **`.env` file contents:**
 ```env
 # --- Project Info ---
-PROJECT_NAME=MatrimAI Backend
+PROJECT_NAME=janamsaathiai Backend
 VERSION=1.0.0
 DEBUG=True
 
@@ -351,11 +351,11 @@ BACKEND_HOST=127.0.0.1
 BACKEND_PORT=8000
 
 # --- Database ---
-DB_USER=matrimai_user
+DB_USER=janamsaathiai_user
 DB_PASS=your_secure_password
 DB_HOST=localhost
 DB_PORT=5432
-DB_NAME=matrimai_db
+DB_NAME=janamsaathiai_db
 
 # --- Redis ---
 REDIS_HOST=localhost
@@ -503,7 +503,7 @@ INFO:     Application startup complete.
 **Verify Backend:**
 ```bash
 curl http://localhost:8000/
-# Expected: {"message": "Welcome to MatrimAI Backend"}
+# Expected: {"message": "Welcome to janamsaathiai Backend"}
 
 # API Documentation:
 open http://localhost:8000/docs  # Swagger UI
@@ -537,24 +537,24 @@ version: '3.8'
 services:
   postgres:
     image: postgres:14-alpine
-    container_name: matrimai-db
+    container_name: janamsaathiai-db
     environment:
-      POSTGRES_DB: matrimai_db
-      POSTGRES_USER: matrimai_user
+      POSTGRES_DB: janamsaathiai_db
+      POSTGRES_USER: janamsaathiai_user
       POSTGRES_PASSWORD: ${DB_PASS}
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U matrimai_user"]
+      test: ["CMD-SHELL", "pg_isready -U janamsaathiai_user"]
       interval: 10s
       timeout: 5s
       retries: 5
 
   redis:
     image: redis:7-alpine
-    container_name: matrimai-redis
+    container_name: janamsaathiai-redis
     ports:
       - "6379:6379"
     volumes:
@@ -569,7 +569,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: matrimai-api
+    container_name: janamsaathiai-api
     command: uvicorn main:app --host 0.0.0.0 --port 8000
     ports:
       - "8000:8000"
@@ -636,7 +636,7 @@ docker-compose down
 
 ## 📁 Project Structure
 ```
-matrimai/
+janamsaathiai/
 │
 ├── backend/                      # FastAPI Backend
 │   ├── core/
@@ -691,7 +691,6 @@ matrimai/
 │   ├── main.py                   # Application entry point
 │   ├── requirements.txt
 │   ├── .env.example
-│   ├── Dockerfile
 │   └── README.md
 │
 ├── frontend/                     # Flutter Frontend
@@ -723,7 +722,6 @@ matrimai/
 │   ├── pubspec.yaml
 │   └── README.md
 │
-├── docker-compose.yml
 ├── .gitignore
 ├── LICENSE
 └── README.md                     # This file
