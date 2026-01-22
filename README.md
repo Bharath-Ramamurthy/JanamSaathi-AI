@@ -17,22 +17,8 @@
 
 We reduce the entire process from **6+ months → just weeks** using **AI analysis**.  
 
----
-
-## App Preview  
-
-| Screen | Description |  
-|--------|-------------|  
-| ![Splash Screen](/assets/screen_shots/0_splash_screen.png) | **App Splash Screen**|  
-| ![Sign Up Screen](/assets/screen_shots/1_sign_up_screen.png) | **Sign Up Screen** – AI-Based Preference Selection |  
-| ![Feed Screen](/assets/screen_shots/2_feed_screen.png) | **Feed Screen** – AI-matched profiles |  
-| ![Chat Screen](/assets/screen_shots/3_chat_window.png) | **Chat Screen** – Real-time user conversations with AI-powered compatibility analysis |  
-| ![Analysis Screen](/assets/screen_shots/4_performing_analysis.png) | **Performing Analysis** – AI driven compatability evaluation |  
-| ![Compatibility Report](/assets/screen_shots/5_compatability_report.png) | **Compatibility Report** – Final match insights |  
 
 ---
-
-
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -42,13 +28,12 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 
 > **Reducing arranged marriage matching from months to weeks using AI-driven compatibility analysis**
 
-
-
 ---
 
 ## 📋 Table of Contents
 
 - [Features](#-features)
+- [Preview](#-preview)
 - [Architecture](#-architecture)
 - [Technology Stack](#-technology-stack)
 - [Prerequisites](#-prerequisites)
@@ -58,9 +43,7 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 - [Project Structure](#-project-structure)
 - [API Documentation](#-api-documentation)
 - [Key Technical Implementations](#-key-technical-implementations)
-- [Performance Metrics](#-performance-metrics)
 - [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ---
@@ -108,7 +91,18 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 - Deduplication via ordered pair indexing
 
 ---
+---
 
+## App Preview  
+
+| Screen | Description |  
+|--------|-------------|  
+| ![Splash Screen](/assets/screen_shots/0_splash_screen.png) | **App Splash Screen**|  
+| ![Sign Up Screen](/assets/screen_shots/1_sign_up_screen.png) | **Sign Up Screen** – AI-Based Preference Selection |  
+| ![Feed Screen](/assets/screen_shots/2_feed_screen.png) | **Feed Screen** – AI-matched profiles |  
+| ![Chat Screen](/assets/screen_shots/3_chat_window.png) | **Chat Screen** – Real-time user conversations with AI-powered compatibility analysis |  
+| ![Analysis Screen](/assets/screen_shots/4_performing_analysis.png) | **Performing Analysis** – AI driven compatability evaluation |  
+| ![Compatibility Report](/assets/screen_shots/5_compatability_report.png) | **Compatibility Report** – Final match insights |  
 ## 🏗️ Architecture
 
 ### **System Architecture Diagram**
@@ -927,31 +921,6 @@ await handler(websocket, user_id, request_id, payload, meta, ctx)
 - Add new message types without modifying core logic
 - Testable in isolation
 - Command pattern implementation
-
----
-
-## 📊 Performance Metrics
-
-| Metric | Target | Actual |
-|--------|--------|--------|
-| **API Latency (P95)** | <200ms | 150ms |
-| **WebSocket Message Latency** | <100ms | 45ms |
-| **AI Assessment Duration** | <15s | 8-12s |
-| **FAISS Search (1K profiles)** | <100ms | 35ms |
-| **FAISS Search (10K profiles)** | <500ms | 180ms |
-| **Concurrent WebSocket Connections** | 1000+ | 1200 (tested) |
-| **Database Write Reduction** | 80%+ | 90% |
-| **Zero Message Loss** | 100% | 100% |
-
-**Load Testing Results:**
-```bash
-# Tool: Locust (1000 concurrent users)
-# Duration: 10 minutes
-# Requests: 50,000 total
-# Failure Rate: 0.02%
-# Avg Response Time: 120ms
-```
-
 ---
 
 ## 🚀 Future Enhancements
@@ -982,48 +951,6 @@ await handler(websocket, user_id, request_id, payload, meta, ctx)
 - [ ] **Explainable AI** (show *why* two profiles match with specific reasons)
 
 ---
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-### Getting Started
-
-1. Fork the repository  
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)  
-3. Commit your changes (`git commit -m 'Add amazing feature'`)  
-4. Push to the branch (`git push origin feature/amazing-feature`)  
-5. Open a Pull Request  
-
----
-
-## Code Standards
-
-### Backend (Python)
-
-- Follow PEP 8 style guide  
-- Use type hints for all functions  
-- Write docstrings for public APIs  
-- Run `black` formatter before committing  
-
-### Frontend (Dart)
-
-- Follow Effective Dart guidelines  
-- Use `flutter analyze` to check for issues  
-- Format code with `dart format` before committing  
-
----
-
-## Commit Message Convention
-
-<type>(<scope>): <subject>
-
-feat(chat): add typing indicators
-fix(auth): resolve token refresh race condition
-docs(readme): update installation steps
-refactor(database): optimize ordered pair index
-
-
----
 
 ## 📄 License
 
@@ -1049,31 +976,7 @@ furnished to do so, subject to the following conditions:
 
 ## 🙏 Acknowledgments
 
-- Gottman Method - Relationship science foundation  
-- FastAPI - Modern Python web framework  
-- Flutter - Beautiful cross-platform UI  
-- SentenceTransformers - Semantic text embeddings  
-- FAISS - Efficient similarity search  
-- OpenRouter - LLM API gateway  
-
----
-
-## 📞 Contact
-
-Developer: [Your Name]  
-Email: your.email@example.com  
-LinkedIn: linkedin.com/in/yourprofile  
-GitHub: github.com/yourusername  
-Portfolio: yourportfolio.com  
-
----
-
-## 📈 Project Status
-
-Current Version: 1.0.0 (Production Ready)  
-Last Updated: January 2024  
-Deployment: Development  
-Next Milestone: v1.1.0 (Push Notifications + Video Chat)  
+- Gottman Method - Relationship science foundation   
 
 ---
 
