@@ -17,8 +17,8 @@ from utils.chat_utils import get_chat
 from utils.report_utils import get_report, create_report, update_report
 from services.horoscope import horoscope_score
 from services.text_sentiment import analyze_text
-from models.chat import ChatMessage  # Use correct model
-from utils.helpers import ordered_pair, to_decimal  # Ensures consistent (user1,user2) ordering and conversion
+from models.chat import ChatMessage  
+from utils.helpers import ordered_pair, to_decimal  
 
 logger = logging.getLogger(__name__)
 
