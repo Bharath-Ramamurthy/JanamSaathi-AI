@@ -270,10 +270,10 @@ class SocketManager:
             topic = messages[0].get("topic", "general")
 
           
-            # ✅ Persist first
+         
             await asyncio.to_thread(db_call, persist_messages_bulk, u1, u2, topic, messages)
 
-            # ✅ Only clear cache after DB write succeeded
+         
             await clear_room_cache(room_id)
 
             logger.info(f"Flushed {len(messages)} messages from {room_id} to DB")
