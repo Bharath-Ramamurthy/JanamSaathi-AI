@@ -36,6 +36,9 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 
 ---
 
+
+![](https://raw.githubusercontent.com/Bharath-Ramamurthy/JanamSaathi-AI/blob/main/assets/demo.gif)
+
 ## 📋 Table of Contents
 
 - [Features](#-features)
