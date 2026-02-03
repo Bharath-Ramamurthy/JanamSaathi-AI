@@ -36,7 +36,7 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 
 ---
 ![](assets/demo.gif)
-
+---
 ## 📋 Table of Contents
 
 - [Features](#-features)
