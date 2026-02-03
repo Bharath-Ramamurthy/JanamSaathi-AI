@@ -112,55 +112,8 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 | ![Chat Screen](/assets/screen_shots/3_chat_window.png) | **Chat Screen** – Real-time user conversations with AI-powered compatibility analysis |  
 | ![Analysis Screen](/assets/screen_shots/4_performing_analysis.png) | **Performing Analysis** – AI driven compatability evaluation |  
 | ![Compatibility Report](/assets/screen_shots/5_compatability_report.png) | **Compatibility Report** – Final match insights |  
-## 🏗️ Architecture
 
-### **System Architecture Diagram**
-```mermaid
-graph TB
-    subgraph "Client Layer"
-        A[Flutter Mobile App<br/>iOS/Android/Web]
-    end
-    
-    subgraph "API Gateway"
-        B[Load Balancer<br/>Nginx/CloudFlare]
-    end
-    
-    subgraph "Application Layer"
-        C1[FastAPI Server 1<br/>REST + WebSocket]
-        C2[FastAPI Server N<br/>Horizontal Scaling]
-        D[SocketManager<br/>Singleton Pattern]
-    end
-    
-    subgraph "Data Layer"
-        E[(PostgreSQL<br/>User, Chat, Report)]
-        F[(Redis Cache<br/>Message Buffer)]
-        G[FAISS Index<br/>Vector Search]
-    end
-    
-    subgraph "External Services"
-        H[OpenRouter API<br/>LLM Analysis]
-        I[AWS S3<br/>Photo Storage]
-    end
-    
-    A -->|HTTPS/WSS| B
-    B --> C1
-    B --> C2
-    C1 --> D
-    C2 --> D
-    D --> E
-    D --> F
-    C1 --> G
-    C2 --> G
-    C1 --> H
-    C2 --> H
-    C1 --> I
-    
-    style A fill:#e1f5ff
-    style E fill:#ffe1e1
-    style F fill:#ffe1e1
-    style G fill:#fff4e1
-    style H fill:#e1ffe1
-```
+
 
 ### **Data Flow: Compatibility Assessment**
 ```mermaid
