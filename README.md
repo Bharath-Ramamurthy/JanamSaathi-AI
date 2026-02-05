@@ -59,7 +59,6 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 ## 📋 Table of Contents
 
 - [Features](#-features)
-- [Preview](#-preview)
 - [Architecture](#-architecture)
 - [Technology Stack](#-technology-stack)
 - [Prerequisites](#-prerequisites)
@@ -69,7 +68,6 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 - [Project Structure](#-project-structure)
 - [API Documentation](#-api-documentation)
 - [Key Technical Implementations](#-key-technical-implementations)
-- [Future Enhancements](#-future-enhancements)
 - [License](#-license)
 
 ---
