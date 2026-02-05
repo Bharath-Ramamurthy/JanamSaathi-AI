@@ -1,9 +1,10 @@
 # JanamSaathi AI  
 <div align="center">
 <img src="assets/logo.png" alt="JanamSaathi Logo" width="150"/>
-</div>
+
 
 **Finding your life partner using AI — in weeks, not months**  
+</div>
 
 ---
 
