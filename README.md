@@ -102,16 +102,7 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 ---
 ---
 
-## App Preview  
 
-| Screen | Description |  
-|--------|-------------|  
-| ![Splash Screen](/assets/screen_shots/0_splash_screen.png) | **App Splash Screen**|  
-| ![Sign Up Screen](/assets/screen_shots/1_sign_up_screen.png) | **Sign Up Screen** – AI-Based Preference Selection |  
-| ![Feed Screen](/assets/screen_shots/2_feed_screen.png) | **Feed Screen** – AI-matched profiles |  
-| ![Chat Screen](/assets/screen_shots/3_chat_window.png) | **Chat Screen** – Real-time user conversations with AI-powered compatibility analysis |  
-| ![Analysis Screen](/assets/screen_shots/4_performing_analysis.png) | **Performing Analysis** – AI driven compatability evaluation |  
-| ![Compatibility Report](/assets/screen_shots/5_compatability_report.png) | **Compatibility Report** – Final match insights |  
 
 
 
@@ -180,12 +171,7 @@ sequenceDiagram
 
 ## 📦 Prerequisites
 
-### **System Requirements**
 
-#### **Development Machine**
-- **OS:** Windows 10+, macOS 12+, or Ubuntu 20.04+
-- **RAM:** Minimum 8GB (16GB recommended)
-- **Storage:** 5GB free space
 
 #### **Software**
 
@@ -888,35 +874,6 @@ await handler(websocket, user_id, request_id, payload, meta, ctx)
 - Command pattern implementation
 ---
 
-## 🚀 Future Enhancements
-
-### **High Priority**
-
-- [ ] **Push Notifications** (FCM for mobile, WebSocket for web)
-- [ ] **Read Receipts & Typing Indicators**
-- [ ] **Video Chat Integration** (WebRTC)
-- [ ] **Advanced Filters** (age range, location radius, education level)
-- [ ] **Multi-language Support** (Hindi, Tamil, Telugu, etc.)
-
-### **Medium Priority**
-
-- [ ] **Admin Dashboard** (user management, analytics)
-- [ ] **Report Abuse/Block Users**
-- [ ] **Photo Verification** (AI-based face matching)
-- [ ] **Subscription Plans** (Freemium model)
-- [ ] **Email/SMS Notifications**
-
-### **Research & Experimentation**
-
-- [ ] **Graph Neural Networks** for relationship prediction
-- [ ] **Reinforcement Learning** for adaptive matching (learn from user feedback)
-- [ ] **Voice Message Analysis** (sentiment from tone using speech-to-text + analysis)
-- [ ] **Cultural Context Detection** (understand regional nuances, festivals, traditions)
-- [ ] **Fine-tuned Compatibility Model** (train on user feedback: "This match was accurate")
-- [ ] **Explainable AI** (show *why* two profiles match with specific reasons)
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -939,11 +896,6 @@ furnished to do so, subject to the following conditions:
 
 ---
 
-## 🙏 Acknowledgments
-
-- Gottman Method - Relationship science foundation   
-
----
 
 <div align="center">
 
