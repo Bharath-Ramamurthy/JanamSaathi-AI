@@ -39,17 +39,13 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 
 ---
 <p align="center">
-  <img src="assets/architecture_janamsaathi.gif" width="600" />
+  <img src="assets/architecture_janamsaathi.gif" width="650" />
 </p>
 
-
 ---
-
-![](assets/architecture_janamsaathi.gif)
-
----
-
-![](assets/demo.gif)
+<p align="center">
+  <img src="assets/demo.gif" width="650" />
+</p>
 
 ---
 ## 📋 Table of Contents
