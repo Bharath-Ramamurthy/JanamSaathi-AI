@@ -117,7 +117,7 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 
 ### **LLD Design**
 <div align="center">
-<img src="assets/LLD.JPG" alt="LLD Design" width="650"/>
+<img src="assets/LLD.png" alt="LLD Design" width="650"/>
 </div>
 ---
 ### **Data Flow: Compatibility Assessment**
