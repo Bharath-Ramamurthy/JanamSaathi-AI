@@ -36,14 +36,21 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
 
 > **Reducing arranged marriage matching from months to weeks using AI-driven compatibility analysis**
 
+
 ---
-<div align="center">
+<p align="center">
+  <img src="assets/architecture_janamsaathi.gif" width="600" />
+</p>
+
+
+---
+
 ![](assets/architecture_janamsaathi.gif)
-</div>
+
 ---
-<div align="center">
+
 ![](assets/demo.gif)
-</div>
+
 ---
 ## 📋 Table of Contents
 
