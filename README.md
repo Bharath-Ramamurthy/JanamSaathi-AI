@@ -3,7 +3,7 @@
 <img src="assets/logo.png" alt="JanamSaathi Logo" width="150"/>
 
 
-**Finding your life partner using AI — in weeks, not months**  
+**Finding your life partner using AI - in weeks, not months**  
 </div>
 
 ---
