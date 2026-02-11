@@ -45,11 +45,6 @@ We reduce the entire process from **6+ months → just weeks** using **AI analys
   <img src="assets/architecture_janamsaathi.gif" width="650" />
 </p>
 
-### LLD / Schema Design
-<p align="center">
-  <img src="assets/LLD.png" width="650" />
-</p>
-
 ### Live Demo
 <p align="center">
   <img src="assets/demo.gif" width="650" />
