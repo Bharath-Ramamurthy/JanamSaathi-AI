@@ -14,8 +14,6 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-336791.svg?style=flat&logo=PostgreSQL&logoColor=white)](https://www.postgresql.org)
 [![RAG](https://img.shields.io/badge/RAG-Retrieval--Augmented%20Generation-FF6600.svg?style=flat&logo=OpenAI&logoColor=white)](https://www.researchgate.net/publication/363693134_Retrieval-Augmented_Generation)
 
-**[Watch Full Demo →](https://www.youtube.com/watch?v=naVaP0DdNx4)**
-
 </div>
 
 ---
@@ -616,7 +614,5 @@ MIT License — see [LICENSE](./LICENSE) for details.
 <div align="center">
 
 ⭐ Star this repo if you found it useful
-
-[Report Bug](https://github.com/Bharath-Ramamurthy/JanamSaathi-AI/issues) · [Request Feature](https://github.com/Bharath-Ramamurthy/JanamSaathi-AI/issues)
 
 </div>
